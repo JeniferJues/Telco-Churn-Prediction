@@ -163,6 +163,23 @@ if st.button("🔍 Predict Churn"):
     # Progress bar (expects float between 0.0 and 1.0)
     st.progress(prob)
 
+
+# =====================================================
+# 6️⃣ POWER BI DASHBOARD EMBED
+# =====================================================
+
+st.divider()
+
+# Replace this with your actual Power BI embed URL
+POWER_BI_EMBED_URL = "https://app.powerbi.com/view?r=eyJrIjoiY2ExODYxN2QtZTE1Ny00MjA2LThlZDItZDRiOTI3NDA0MDQxIiwidCI6ImE2M2JiMWE5LTQ4YzItNDQ4Yi04NjkzLTMzMTdiMDBjYTdmYiIsImMiOjEwfQ%3D%3D"
+
+st.components.v1.iframe(
+    src=POWER_BI_EMBED_URL,
+    width=1200,
+    height=700,
+    scrolling=True
+)
+
 # =====================================================
 # 7️⃣ FOOTER
 # =====================================================
