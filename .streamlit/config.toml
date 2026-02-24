@@ -1,6 +1,5 @@
 [theme]
-primaryColor = "#2563EB"        # Buttons, sliders (blue)
-backgroundColor = "#F8FAFC"     # App background
-secondaryBackgroundColor = "#E5E7EB"  # Sidebar, cards
-textColor = "#111827"           # Text color
-font = "sans serif"
+primaryColor="#7809C8"
+backgroundColor="#170570"
+secondaryBackgroundColor="#FCBBF9"
+textColor="#f8f8f2"
